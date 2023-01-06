@@ -13,12 +13,18 @@ public class Methods {
 		System.out.println( this.value());
 		System.out.println( this.c);
 	}
-	
+	 void method1(int a, String b) { //local variable
+	 int c =3; //if i have given c values error gone.and inside function c value no need 
+	 //i need to call instance c values means---> what have to do ----. use this keyword ,by using this we will call method and variable 
+		System.out.println(a+b+this.c + this.value());
+		System.out.println( this.value());
+		System.out.println( this.c);
+	}
 	
 	public static void main(String[] args) {
 		 Methods obj =new Methods();
 		 obj.method1(3, 3);
-
+obj.method1(3, "saran");
 	}
 
 }
