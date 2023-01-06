@@ -17,7 +17,7 @@ public class Methods {
 	
 	public static void main(String[] args) {
 		 Methods obj =new Methods();
-		 obj.method1(2, 2);
+		 obj.method1(3, 3);
 
 	}
 
